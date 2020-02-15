@@ -3,7 +3,7 @@
 ## Project description.
 - The project is based on the Ghananian tradition on their child naming culture.What it does it takes the users information concerning the dates they were born and time also and then gives the user the name they would have gotten if they were born in Ghana.Since the people in Ghana are named according to the days of the week that were born whether male or female.  
 ## Author information.
- - Isaac Kibiwot Kpatoge
+ - Isaac Kibiwot Kaptoge
 ## Setup instructions 
  - git clone or download the zip file.
 
