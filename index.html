@@ -11,16 +11,38 @@
 </head>
 <body>
        
-    <div class="container" >
-        <div class="jumbotron text-centre " style="background-color: lightblue;">
+    <div class="container-fluid" >
+        <div class="jumbotron">
+        
             <h1> <strong>Akan-Names </strong></h1>
-            <div class="paragraph">
             <p >The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.
                 These "day names" have further meanings concerning the soul and character of the person </p>
-                </div>
+            </div>
         </div>
-        </div>
-
+        <div>
+            <table>
+                <tr>
+                  <td>
+                    Date of Birth :
+                    <input type="text" placeholder="Day..." id="day" min="1" max="2">
+                    <input type="text" placeholder="Month..." id="month">
+                    <input type="text" placeholder="Year..." id="year" min="1" max="4">
+                  </td>
+                </tr><br><br>
+                <tr>
+                  <td>
+                    Gender :
+                    <input type="radio" name="male">Male
+                    <input type="radio" name="female">Female
+                  </td>
+                </tr><br><br>
+                <tr>
+                  <td>
+                    <button onclick="getName()" type="submit">Submit</button>
+                  </td>
+                </tr>
+              </table>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
