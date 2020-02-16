@@ -17,3 +17,6 @@
  - HTML-I used html for displaying the content.
  - CSS-I used css and bootstrap for styling the front-end of the website and making the landing page.
  - JAVASCRIPT-I used javascript for the out put.
+
+## Projects live link 
+https://isaac23-k.github.io/Akan-names/
