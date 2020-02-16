@@ -10,7 +10,9 @@ h1 {
     
 }
 body {
-    background-color: slategray;
+    background-image: url(/home/isaac/Desktop/Akan-names/Images/ghana.jpg);
+    background-position: center;
+    backface-visibility: hidden;
     font-style: italic;
     text-align: center;
 }
@@ -20,4 +22,7 @@ body {
     border-top: 6px solid black;
     border-bottom: 8px solid black;
     padding: 6px;
+}
+h3 {
+    font-size: 30px;
 }
