@@ -27,29 +27,23 @@
                 </div>
                 </div>
                 <h2> <strong>Fill in the form below to get your Akan-Name if you were born in Ghana !</strong> </h2>
-            <table>
-                <tr>
-                  <td>
-                   <strong> Date of Birth : </strong>
-                    <input type="text" placeholder="Day..." id="day" min="1" max="2">
-                    <input type="text" placeholder="Month..." id="month">
-                    <input type="text" placeholder="Year..." id="year" min="1" max="4">
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                   <strong> Gender : </strong>
-                    <input type="radio" name="male">Male
-                    <input type="radio" name="female">Female
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button onclick="getName()" type="submit">Submit</button>
-                  </td>
-                </tr>
-              </table>
+                <div class="form">
+                    <label>YEAR OF BIRTH</label><br>
+                    <input type="number" id="year" min="1900" max="2099" step="1" placeholder="YYYY" value="" />
+                         <br><br>
+                    <label>BIRTH MONTH:</label><br>
+                             <input type="number" id="month" min="01" max="12" step="1" placeholder="MM" value="4" /><br><br>
+                    <label>Day OF BIRTH </label><br>
+                             <input type="number" name="DAY" id="day" min="01" max="31" placeholder="DD" value=""><br><br>
+                    <label>GENDER</label><br>
+                    <div id="gender">
+                              <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                              <input type="radio" name="gender" value="female">Female<br>
+                    </div>
+                             <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="results()">
+                  </div>
+                </div>
               <h3> <h3>&copy;2020|Made by steve Isaac Kaptoge|privacy||Terms and conditions apply|Privacy|Security|Help|Contact:0704539368|</h3></h3>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

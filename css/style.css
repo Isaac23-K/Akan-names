@@ -10,11 +10,12 @@ h1 {
     
 }
 body {
-    background-image: url(/home/isaac/Desktop/Akan-names/Images/ghana.jpg);
+    background-image: url("Images/ghana.jpg");
     background-position: center;
-    backface-visibility: hidden;
+    background-repeat: no-repeat;
     font-style: italic;
     text-align: center;
+    background-color: cadetblue;
 }
 .box {
     border-left: 2px solid black;
