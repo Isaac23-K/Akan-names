@@ -20,3 +20,7 @@
 
 ## Projects live link 
 https://isaac23-k.github.io/Akan-names/
+
+## Contact information 
+Email:ikaptoge@yahoo.com
+Phone: 0704539368 
